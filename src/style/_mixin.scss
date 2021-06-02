@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+$orange:#FC6220;
+$fruitPunch:#FC595B;
+$green: #5E9040;
+$yellow: #FEDD64;
+
+@mixin fontLato {
+    font-family: 'Lato', sans-serif;
+}

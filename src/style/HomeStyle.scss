@@ -1,0 +1,23 @@
+.navContainer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+
+    .logoContainer{
+        max-width: 10%;
+        img{
+            width: 100%;
+            border-radius: 100px;
+        }
+    }
+
+    li , a{
+        text-decoration: none;
+        list-style: none;
+        font-size: 1.5rem;
+        font-weight: bolder;
+        color: $orange;
+
+    }
+}

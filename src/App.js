@@ -1,11 +1,14 @@
-import './App.css';
+import './style/App.scss';
+import Home from './components/Home.js'
+import SpecialItems from './components/SpecialItems.js'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>helloo</h1>
+    <div className="App ">
+      <header className="wrapper">
+        <Home />
       </header>
+        <SpecialItems />
     </div>
   );
 }
