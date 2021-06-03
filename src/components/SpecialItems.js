@@ -3,7 +3,7 @@ import summaLogo from '../assets/summaLogo.png';
 
 function SpecialItems() {
     return(
-        <div className = "specialItemsContainer">
+        <div className = "specialItemsContainer" id ="specialItems">
             <div className="productContainer wrapper">
                 <div className="productPanel">
                     <div className="productImageContainer">
