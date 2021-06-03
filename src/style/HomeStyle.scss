@@ -22,47 +22,103 @@
     }
 }
 
-.leftContainer{
-    .rumPunchContainer{
-
-        .decorationBar{
-            border-top: 5px solid $orange;
-            width: 10%;
-        }
-
-        h2{
-            color: $fruitPunch;
-            font-size: 1.5rem;
-            font-style: italic;
-            font-weight: 800;
-        }
-
-        p{
-            color: $fruitPunch;
-            font-size: 1rem;
-            font-weight: 600;
-        }
-
-        p:nth-child(4){
-            font-size: 1.5rem;
-            font-weight: 800;
-            span{
-                font-size:1rem;
-                position:relative;
-                left: 40px;
-                font-weight: 600;
+.signatureDrinkSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 5vh;
+    .leftContainer{
+        .rumPunchContainer{
+            display:flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            height: 100%;
+            width: 80%;
+            .decorationBar{
+                border-top: 10px solid $orange;
+                width: 30%;
             }
-        }
-
-        p:nth-child(5), p:nth-child(6){
-            font-size: 0.7rem;
-            color: black;
-            font-weight: 300;
-            a{
-                text-decoration: none;
-                color:$orange;
+    
+            h2{
+                color: $fruitPunch;
+                font-size: 1.5rem;
+                font-style: italic;
                 font-weight: 800;
             }
+    
+            p{
+                color: $fruitPunch;
+                font-size: 1rem;
+                font-weight: 600;
+            }
+    
+            p:nth-child(4){
+                font-size: 1.5rem;
+                font-weight: 800;
+                span{
+                    font-size:1rem;
+                    position:relative;
+                    left: 40px;
+                    font-weight: 600;
+                }
+            }
+    
+            p:nth-child(5), p:nth-child(6){
+                font-size: 0.7rem;
+                color: black;
+                font-weight: 300;
+                a{
+                    text-decoration: none;
+                    color:$orange;
+                    font-weight: 800;
+                }
+            }
         }
     }
+    
+    .centerContainer{
+        .centerInnerContainer{
+            display:flex;
+            align-items: center;
+            max-width: 100%;
+            img{
+                width: 100%;
+            }
+            svg{
+                font-size: 5rem;
+                color: $fruitPunch;
+                cursor: pointer;
+                padding-left: 50px;
+            }
+        }
     }
+
+    .rightContainer{
+        padding-left: 100px;
+        display:flex;
+        align-items: baseline;
+
+        .rightContainerDes{
+
+            color: $fruitPunch;
+            h3{
+                font-size: 1.5rem;
+                font-weight: 800;
+            }
+            .decorationBar{
+                border-top: 2px solid $orange;
+            }
+
+            ul{
+                list-style: none;
+                padding-left: 0;
+                li{
+                    font-weight: 800;
+                }
+                li:before{
+                    content: '+';
+                    margin-right: 4px;
+                }
+            }
+        }
+    }
+}
