@@ -4,7 +4,7 @@ import summaLogo from '../assets/summaLogo.png';
 function SpecialItems() {
     return(
         <div className = "specialItemsContainer" id ="specialItems">
-            <div className="productContainer wrapper">
+            <div className="productContainer">
                 <div className="productPanel">
                     <div className="productImageContainer">
                         <img src= {summaLogo} alt=""/>

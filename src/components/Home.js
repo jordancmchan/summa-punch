@@ -1,5 +1,6 @@
 import summaLogo from '../assets/summaLogo.png';
-import signatureDrinks from './signatureDrinks.js'
+import signatureDrinks from './_signatureDrinks.js'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
 
@@ -35,7 +36,7 @@ function Home() {
                     <li><a href="">FAQ</a></li>
                 </ul>
             </nav>
-            <section className="signatureDrinkSection wrapper">
+            <section className="signatureDrinkSection">
                 <div className="leftContainer">
                     <div className="rumPunchContainer">
                         <div className="decorationBar"></div>

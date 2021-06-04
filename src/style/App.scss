@@ -1,15 +1,15 @@
 @import 'mixin';
-@import 'HomeStyle'; 
-@import 'SpecialItems';
+@import 'homeStyle'; 
+@import 'specialItems';
+@import 'faq';
 
 .App{
     font-size: 62.5%;
     border: 10px $orange solid;
-    // height: 100vh;
 
     .wrapper{
         margin-right: auto;
         margin-left: auto;
-        max-width: 90%;
+        max-width: 80%;
     }
 }

@@ -9,6 +9,7 @@
         img{
             width: 100%;
             border-radius: 100px;
+            cursor: pointer;
         }
     }
 
@@ -24,7 +25,7 @@
 
 .signatureDrinkSection{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 30% auto 20%;
     padding-bottom: 5vh;
     .leftContainer{
         .rumPunchContainer{
@@ -95,7 +96,7 @@
     .rightContainer{
         padding-left: 100px;
         display:flex;
-        align-items: baseline;
+        align-items: center;
 
         .rightContainerDes{
 

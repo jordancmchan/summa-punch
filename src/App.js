@@ -1,6 +1,7 @@
 import './style/App.scss';
 import Home from './components/Home.js'
 import SpecialItems from './components/SpecialItems.js'
+import Faq from './components/Faq.js'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Home />
       </header>
         <SpecialItems />
+        <Faq />
     </div>
   );
 }

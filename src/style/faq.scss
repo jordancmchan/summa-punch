@@ -1,0 +1,14 @@
+.faqContainer{
+    height: 100vh;
+    background-color: $yellow;
+    .faqInnerContainer{
+        height: 100%;
+        
+        h2{
+            color: $fruitPunch;
+            font-size: 1.5rem;
+            font-weight: 900;
+            margin: 0 ;
+        }
+    }
+}
