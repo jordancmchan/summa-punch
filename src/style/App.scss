@@ -2,14 +2,16 @@
 @import 'homeStyle'; 
 @import 'specialItems';
 @import 'faq';
+@import 'contactStyle';
 
 .App{
     font-size: 62.5%;
     border: 10px $orange solid;
-
+    
     .wrapper{
         margin-right: auto;
         margin-left: auto;
-        max-width: 80%;
+        max-width: 75%;
+        
     }
 }

@@ -17,19 +17,15 @@ function Home() {
         if (currentImg >= signatureDrinks.length - 1){
             setCurrentImg(0)
         }
-
-        // if(!signatureDrinks.flavours ){
-        //     return null
-        // }
     }
 
     return(
         <div>
             <nav>
-                <ul className = "navContainer">
-                    <div className="logoContainer">
+                <div className="logoContainer">
                         <img src={summaLogo} alt="summer vibes logo"/>
-                    </div>
+                </div>
+                <ul className = "navContainer">
                     <li><a href="">Signature Drinks</a></li>
                     <li><a href="#specialItems">Special Items</a></li>
                     <li><a href="">Contact</a></li>
